@@ -15,7 +15,7 @@ function App() {
       height="100vh"
       projectID={PROJECT_ID}
       userName={localStorage.getItem('username')}
-      renderChatFedd={(chatAppPros) => <ChatFeed {...chatAppPros} />}
+      renderChatFeed={(chatAppPros) => <ChatFeed {...chatAppPros} />}
       onNewMessage={() =>
         new Audio(
           'https://chat-engine-assets.s3.amazonaws.com/click.mp3'
